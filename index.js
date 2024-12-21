@@ -29,10 +29,7 @@ function renderAddTaskPage() {
                 <label for="taskTitle" class="form-label">Task Title</label>
                 <input type="text" id="taskTitle" class="form-control" placeholder="Enter task title" required>
             </div>
-            <div class="mb-3">
-                <label for="taskDesc" class="form-label">Task Description</label>
-                <textarea id="taskDesc" class="form-control" placeholder="Enter task description"></textarea>
-            </div>
+
             <div class="mb-3">
                 <label for="taskDate" class="form-label">Task Date</label>
                 <input type="date" id="taskDate" class="form-control" required>
